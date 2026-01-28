@@ -9,22 +9,22 @@ on:
       - main
 
 jobs:
-	jobs:
   build:
     name: Basic CI Job
     runs-on: ubuntu-latest
 
     steps:
-steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-- name: Show repository structure
+      - name: Show repository structure
         run: |
           pwd
           ls -la
-- name: Check installed tools
+
+      - name: Check installed tools
         run: |
           git --version
           bash --version
+
 
