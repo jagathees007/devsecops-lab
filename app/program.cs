@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static void Main()
+    public static void Main()
     {
         // Graph definition (Adjacency List)
         var graph = new Dictionary<string, List<string>>
